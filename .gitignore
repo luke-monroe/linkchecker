@@ -50,3 +50,5 @@ doc/html
 doc/src/_build
 doc/src/code/linkcheck
 linkcheck/_release.py
+
+.direnv
