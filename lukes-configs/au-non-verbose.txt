@@ -5,10 +5,13 @@ nofollow=
   andrews\.edu/life/student-movement/issues/
   andrews\.edu/weblmsc/moodle/
   andrews\.edu/~
+ignore=
+  player\.vimeo\.com/
 
 [output]
 verbose=0
 fileoutput=text
+warnings=0
 
 [text]
 filename=./output/run001.txt
