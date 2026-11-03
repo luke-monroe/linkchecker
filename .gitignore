@@ -52,3 +52,4 @@ doc/src/code/linkcheck
 linkcheck/_release.py
 
 .direnv
+output/
