@@ -1,0 +1,14 @@
+[filtering]
+checkextern=1
+nofollow=
+  andrews\.edu/agenda/
+  andrews\.edu/life/student-movement/issues/
+  andrews\.edu/weblmsc/moodle/
+  andrews\.edu/~
+
+[output]
+verbose=0
+fileoutput=text
+
+[text]
+filename=./output/run001.txt

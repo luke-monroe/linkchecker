@@ -1,3 +1,12 @@
+Luke's notes:
+=============
+This is branched for personal use at my work
+When running locally, I use this command:
+`
+python3 -c "from linkcheck.command.linkchecker import linkchecker; linkchecker()" https://www.andrews.edu --config=./lukes-configs/au-non-verbose.txt
+`
+Make sure /output/ exists before running the command. I recommend reading the configuration file.
+
 LinkChecker
 ============
 
