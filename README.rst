@@ -2,10 +2,10 @@ Luke's notes:
 =============
 This is branched for personal use at my work
 When running locally, I use this command:
-`
+
+
 python3 -c "from linkcheck.command.linkchecker import linkchecker; linkchecker()" https://www.andrews.edu --config=./lukes-configs/au-non-verbose.txt
-`
-Make sure /output/ exists before running the command. I recommend reading the configuration file.
+
 
 LinkChecker
 ============
@@ -40,6 +40,20 @@ Installation
 Python 3.10 or later is needed. Using pipx to install LinkChecker::
 
   pipx install linkchecker
+
+Quick setup for NixOS and Linux
+--------------------------------
+
+NixOS (development shell with all common dependencies preloaded)::
+
+  nix develop
+
+Standard Linux (Ubuntu/Debian example)::
+
+  sudo apt update && sudo apt install -y python3 python3-pip python3-venv
+  python3 -m venv .venv && source .venv/bin/activate
+  python -m pip install -U pip && python -m pip install -r requirements.txt hatchling hatch-vcs
+  python -m hatchling build --hooks-only
 
 The version in the Python Package Index may be old, to find out how
 to get the latest code, plus platform-specific information and other advice see
